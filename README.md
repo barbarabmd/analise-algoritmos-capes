@@ -22,10 +22,10 @@ Para compilar e executar o projeto, é preciso instalar:
 
 - Compilador C (GCC)
 - Python 3.x
-- Bibliotecas Python: `pandas` e `matplotlib` (para a geração do gráfico de validação experimental)
+- Bibliotecas Python: `pandas`, `matplotlib` e `tabulate` (para a geração do gráfico de validação experimental e da tabela formatad para o relatório)
 
 ```bash
-pip install pandas matplotlib
+pip install pandas matplotlib tabulate
 ```
 
 ## Como compilar o programa em C
