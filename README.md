@@ -1,6 +1,6 @@
 # Análise de Algoritmos - Cadastro de Bolsistas CAPES
 
-O projeto implementa e analisa um algoritmo em C para o processamento e cadastro de bolsistas da CAPES, garantindo que não tenha registros duplicados baseados no campo "Nome". Além disso, realiza a análise da complexidade temporal da busca sequencial ($O(n^2)$) por meio da coleta de dados empíricos e da geração de gráficos.
+O projeto implementa e analisa um algoritmo em C para o processamento e cadastro de bolsistas da CAPES, garantindo que não tenha registros duplicados baseados no campo "Nome". Além disso, realiza a análise da complexidade temporal da busca sequencial O(n^2) por meio da coleta de dados empíricos e da geração de gráficos.
 
 ## Estrutura do projeto
 
@@ -79,7 +79,7 @@ Caso o código C esteja com a "trava empírica" ativada (não comentada) para ex
 
 ## Geração do gráfico de Complexidade Temporal
 
-Após executar todos os experimentos propostos (10 a 160 nomes) e coletar os dados, você pode gerar a representação visual da complexidade $O(n^2)$ executando o script auxiliar:
+Após executar todos os experimentos propostos (10 a 160 nomes) e coletar os dados, você pode gerar a representação visual da complexidade O(n^2) executando o script auxiliar:
 
 ```bash
 python src/gerador_grafico.py
